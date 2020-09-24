@@ -7,7 +7,7 @@
 #
 
 
-name: 编译Lede_x86_64固件
+name: 编译newifi-d2固件
 
 on:
   workflow_dispatch:
