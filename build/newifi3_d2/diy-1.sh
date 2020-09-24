@@ -18,8 +18,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/l
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 git clone https://github.com/V2RaySSR/openwrt-packages/tree/master/luci-app-aliddns  #阿里dns
-git clone https://github.com/V2RaySSR/openwrt-packages/tree/master/adguardhome #adguardhome
-git clone https://github.com/V2RaySSR/openwrt-packages/tree/master/luci-app-adguardhome #同上
+
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 #全新的[argon-主题]此主题玩法很多,这里看说明【https://github.com/jerrykuku/luci-theme-argon/blob/18.06/README_ZH.md】
