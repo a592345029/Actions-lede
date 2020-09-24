@@ -15,7 +15,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'Lede_x86_64'
+        default: 'newifi3_d2'
 
 
 #编辑任意指定文件触发开始编译
@@ -51,7 +51,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Lede_x86_64]
+        target: [newifi3_d2]
 
     steps:
     - name: 准备结束
