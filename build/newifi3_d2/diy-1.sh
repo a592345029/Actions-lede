@@ -14,6 +14,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
+git clone https://github.com/a592345029/luci-app-koolproxy.git package/lean/luci-app-koolproxy #koolproxy去广告
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/lean/adguardhome  #dadguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/lean/luci-app-adguardhome   #adguardhome插件
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns #阿里dns
