@@ -20,7 +20,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome pa
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns #阿里dns
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
-svn co https://github.com/liuran001/openwrt-packages/trunk/luci-app-koolproxyR package/lean/luci-app-koolproxyR #kpr去广告
 
 
 rm -rf ./package/lean/luci-theme-infinityfreedom && git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #主题
